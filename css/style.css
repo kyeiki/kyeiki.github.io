@@ -25,9 +25,19 @@ nav ul {
   transition: all 0.4s;
 }
 nav .logo {
+  width: auto;
+  height:auto;
   font-family: "Srisakdi", cursive;
   letter-spacing: 3px; /*space antar char*/
+  position: relative;
+  display: flex;
+  align-items: center;
 }
+
+nav .logo h4 {
+  margin-left: 10px;
+}
+
 
 nav ul li a {
   text-decoration: none;
